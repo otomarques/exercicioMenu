@@ -1,6 +1,6 @@
 import PromptSync from "prompt-sync";
 // import { verificarMaiorIdade } from "./exercicios.js";
-import { VerificaçãoDiaSemana, calculoDeDesconto } from "./funcao.js";
+import { VerificaçãoDiaSemana, calculoDeDesconto , numerode1a10, ImprimirPares, fibonacci,ordemCrescente } from "./funcao.js";
 
 
 
@@ -36,6 +36,20 @@ do {
         case 3:
         calculoDeDesconto();
             break;
+        case 4:
+            numerode1a10();
+
+        break;
+        case 5:
+            ImprimirPares();
+
+        break;
+        case 6:
+            fibonacci();
+            break;
+        case 7:
+            ordemCrescente();
+            break;    
 
         default:
             console.log("digite um numero de 1 a 8");
@@ -48,5 +62,5 @@ do {
 function helloword(frase) {
     console.log(frase);
 }
-
+console.clear();
 console.log("Xau!!!");
